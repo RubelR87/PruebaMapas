@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PruebaMapas</string>
+    <string name="latitud">Latitud: La latitud mide el ángulo entre cualquier punto y el ecuador</string>
+    <string name="Longitud">Longitud: La longitud mide el ángulo a lo largo del ecuador desde cualquier punto de la Tierra</string>
+    <string name="titulo">Coordenadas geográficas</string>
+    <string name="titulo2">Coordenadas geográficas2</string>
+
+    <string name="contenidocoordenads">Las coordenadas geográficas son un sistema de referencia que utiliza las dos coordenadas angulares, latitud (Norte y Sur) y longitud (Este y Oeste) y sirve para...</string>
+</resources>

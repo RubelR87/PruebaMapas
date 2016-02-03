@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+
+    >
+
+
+        <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:id="@+id/imglocation"
+        android:src="@drawable/gpslocation"
+        android:scaleType="centerCrop"
+
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agregando nuevo lugar de envio"
+        android:id="@+id/tvtituloformulario"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imglocation"
+        android:layout_toEndOf="@+id/imglocation"
+        android:gravity="center"
+
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Latitud:"
+        android:id="@+id/tvlatitud"
+        android:layout_below="@+id/tvtituloformulario"
+        android:layout_toRightOf="@+id/imglocation"
+        android:layout_toEndOf="@+id/imglocation"
+        android:gravity="right"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Longitud:"
+        android:id="@+id/tvlongitud"
+        android:layout_below="@+id/tvlatitud"
+        android:layout_toRightOf="@+id/imglocation"
+        android:layout_toEndOf="@+id/imglocation"
+        android:gravity="right"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvlongitud2"
+        android:layout_alignBottom="@+id/tvlongitud"
+        android:layout_toRightOf="@+id/tvlatitud"
+        android:layout_toEndOf="@+id/tvlatitud"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvlatitud2"
+        android:layout_above="@+id/tvlongitud"
+        android:layout_alignLeft="@+id/tvlongitud2"
+        android:layout_alignStart="@+id/tvlongitud2"
+        android:layout_marginLeft="5dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Más información"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/imglocation"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#04B4AE"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="55dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contenidocoordenads"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/tvlongitud"
+        android:layout_toRightOf="@+id/imglocation"
+        android:layout_toEndOf="@+id/imglocation"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="4dp"
+        />
+
+
+</RelativeLayout>
